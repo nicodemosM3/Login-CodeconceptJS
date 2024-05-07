@@ -1,0 +1,12 @@
+- Sempre quando iniciar a sessão
+...
+
+- Rodar todos os testes
+npx codeceptjs run;
+
+- Rodar testes específicos
+npx codeceptjs run --grep "'nome da tag do teste entre aspas simples apenas'";
+
+-- Modo headless (executar testes em segundo plano)
+No arquivo codeceptjs.conf.js mudar o atributo show para "false" (linha 16);
+
